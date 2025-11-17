@@ -28,7 +28,7 @@ Built on top of the **Nav2 Stack** and **SLAM Toolbox**, the robot performs real
 
 The project follows a modular architecture based on the "Separation of Concerns" principle:
 
-* **`cafe_simulation`**: Contains the custom Gazebo world (`kafe.world`), robot description (URDF/XACRO), and simulation launch files.
+* **`cafe_simulation`**: Contains the custom Gazebo world (`cafe.world`), robot description (URDF/XACRO), and simulation launch files.
 * **`cafe_robot_manager` (The Brain)**: A C++ package handling the State Machine, FIFO task queue, Nav2 action clients, and the auto-docking algorithm.
 * **`cafe_gui`**: A Python package providing the visual interface for human-robot interaction.
 

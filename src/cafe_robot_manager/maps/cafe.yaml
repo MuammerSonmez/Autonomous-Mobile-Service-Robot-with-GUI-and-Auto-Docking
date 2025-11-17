@@ -1,4 +1,4 @@
-image: my_cafe_map.pgm
+image: cafe.pgm
 mode: trinary
 resolution: 0.03
 origin: [0.0143, -4.14, 0]
